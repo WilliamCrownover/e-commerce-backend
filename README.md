@@ -1,12 +1,24 @@
 # E-Commerce Backend
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 The purpose of this project was to configure a working Express.js API backend to use Sequelize to query the MySQL database of products, tags, and categories for an E-commerce storefront. Four sequelize models were created for the database, Category, Product, Tag, and ProductTag which handles the many to many relationship between products and tags. I developed the CRUD functionality for the different express routes which included GET all data, Get one, POST, PUT, and DELETE processes for all three sequelize models. To test that these routes were working before deployment to a live site I used Insomnia to return the JSON objects. A demonstration of these routes can be seen in the walkthrough video below. 
 
 <img src="./assets/screenshot.jpg" width="1200" alt="Insomnia route testing and server terminal log"/>
 
-## User Story/Goal
+## Table of Contents
+
+- [User Story](#user-story)
+- [Walkthrough Video](#walkthrough-video)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [License](#license)
+- [Contact](#contact)
+
+## User Story
 
 ```
 AS A manager at an internet retail company
@@ -18,7 +30,7 @@ SO THAT my company can compete with other e-commerce companies
 
 https://www.youtube.com/watch?v=5UCJi-xWong&ab_channel=WilliamCrownover
 
-## Installation/Dependencies
+## Installation
 
 You will need Node.js installed on your local machine to run this app.
 Then you can clone this repo to your local machine.
@@ -42,9 +54,17 @@ After proper installation, the app can be run using `npm start` in the command l
 To test that the server is working you can use a program like Insomnia or Postman to make GET, POST, PUT, and DELETE requests for the three models, Category, Product, and Tag. See the walkthrough video for a demonstration of these routes.
 
 ## Technologies
-
 - Node.js
 - Express.js
 - MySQL2
 - Sequelize
 - Dotenv 
+
+## License
+Licensed under the MIT License - https://opensource.org/licenses/MIT
+
+## Contact
+
+If you have any questions you can email me at williamcrownover1@gmail.com.
+
+You can also check out my other work on GitHub at [WilliamCrownover](https://github.com/WilliamCrownover)
